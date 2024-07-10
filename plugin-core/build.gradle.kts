@@ -60,15 +60,15 @@ tasks.withType<ShadowJar> {
 
     archiveFileName.set("Dream-ItemEffects-${project.version}.jar")
 
-    relocate("com.cryptomorin", "cc.dreamcode.itemeffects.libs.com.cryptomorin")
-    relocate("eu.okaeri", "cc.dreamcode.itemeffects.libs.eu.okaeri")
-    relocate("net.kyori", "cc.dreamcode.itemeffects.libs.net.kyori")
+    relocate("com.cryptomorin", "cc.dreamcode.itemseffect.libs.com.cryptomorin")
+    relocate("eu.okaeri", "cc.dreamcode.itemseffect.libs.eu.okaeri")
+    relocate("net.kyori", "cc.dreamcode.itemseffect.libs.net.kyori")
 
-    relocate("cc.dreamcode.platform", "cc.dreamcode.itemeffects.libs.cc.dreamcode.platform")
-    relocate("cc.dreamcode.utilities", "cc.dreamcode.itemeffects.libs.cc.dreamcode.utilities")
-    relocate("cc.dreamcode.menu", "cc.dreamcode.itemeffects.libs.cc.dreamcode.menu")
-    relocate("cc.dreamcode.command", "cc.dreamcode.itemeffects.libs.cc.dreamcode.command")
-    relocate("cc.dreamcode.notice", "cc.dreamcode.itemeffects.libs.cc.dreamcode.notice")
+    relocate("cc.dreamcode.platform", "cc.dreamcode.itemseffect.libs.cc.dreamcode.platform")
+    relocate("cc.dreamcode.utilities", "cc.dreamcode.itemseffect.libs.cc.dreamcode.utilities")
+    relocate("cc.dreamcode.menu", "cc.dreamcode.itemseffect.libs.cc.dreamcode.menu")
+    relocate("cc.dreamcode.command", "cc.dreamcode.itemseffect.libs.cc.dreamcode.command")
+    relocate("cc.dreamcode.notice", "cc.dreamcode.itemseffect.libs.cc.dreamcode.notice")
 
     minimize()
 }
