@@ -1,0 +1,7 @@
+main: "cc.dreamcode.itemseffect.EffectPlugin"
+version: "1.0"
+name: "Dream-ItemsEffect"
+description: "Dream-ItemsEffect plugin written by dreamcode.cc"
+website: "https://dreamcode.cc"
+author: "Sebt"
+api-version: "1.13"
