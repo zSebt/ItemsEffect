@@ -43,9 +43,6 @@ dependencies {
     implementation("eu.okaeri:okaeri-configs-serdes-bukkit:5.0.2")
     implementation("eu.okaeri:okaeri-configs-serdes-commons:5.0.2")
 
-    implementation("eu.okaeri:okaeri-configs-json-gson:5.0.2")
-    implementation("eu.okaeri:okaeri-configs-json-simple:5.0.2")
-
     // -- injector --
     implementation("eu.okaeri:okaeri-injector:2.1.0")
 
@@ -72,13 +69,6 @@ tasks.withType<ShadowJar> {
     relocate("cc.dreamcode.menu", "cc.dreamcode.itemeffects.libs.cc.dreamcode.menu")
     relocate("cc.dreamcode.command", "cc.dreamcode.itemeffects.libs.cc.dreamcode.command")
     relocate("cc.dreamcode.notice", "cc.dreamcode.itemeffects.libs.cc.dreamcode.notice")
-
-    relocate("org.bson", "cc.dreamcode.itemeffects.libs.org.bson")
-    relocate("com.mongodb", "cc.dreamcode.itemeffects.libs.com.mongodb")
-    relocate("com.zaxxer", "cc.dreamcode.itemeffects.libs.com.zaxxer")
-    relocate("org.slf4j", "cc.dreamcode.itemeffects.libs.org.slf4j")
-    relocate("org.json", "cc.dreamcode.itemeffects.libs.org.json")
-    relocate("com.google.gson", "cc.dreamcode.itemeffects.libs.com.google.gson")
 
     minimize()
 }
